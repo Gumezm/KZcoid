@@ -1,0 +1,5 @@
+# 对所有文本文件自动进行规范化，并在工作区使用 LF
+* text=auto eol=lf
+
+# 如果你的项目里确实有需要 CRLF 的文件（如 Windows 批处理脚本），可单独指定
+# *.bat text eol=crlf
